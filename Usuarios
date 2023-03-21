@@ -2,3 +2,8 @@ public class Usuarios {
 	 private String user;
 	 private String passwd;
 	 private String email;
+	  public Usuarios(String user, String passwd, String email) {
+	        this.user = user;
+	        this.passwd = passwd;
+	        this.email = email;
+	    }
