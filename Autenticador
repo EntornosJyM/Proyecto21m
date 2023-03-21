@@ -4,3 +4,6 @@ public class Autenticador {
 	public Autenticador() {
         this.users = new ArrayList<>();
     }
+public void register(Usuarios user) {
+        this.users.add(user);
+    }
