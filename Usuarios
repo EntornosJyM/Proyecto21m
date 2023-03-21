@@ -21,11 +21,21 @@ public class Usuarios {
 	    public void setPasswd(String passwd) {
 	        this.passwd = passwd;
 	    }
+ Secundaria
+  public String getEmail() {
+    return email;
+	    }
+
 public String getEmail() {
+Principal
 	        return email;
 	    }
 
 	    public void setEmail(String email) {
+ Secundaria
 	        this.email = email;
+
+	        this.email = email;
+Principal
 	    }
 }
