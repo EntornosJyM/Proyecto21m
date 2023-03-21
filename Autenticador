@@ -1,1 +1,6 @@
-
+public class Autenticador {
+	private List<Usuarios> users;
+	
+	public Autenticador() {
+        this.users = new ArrayList<>();
+    }
