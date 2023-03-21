@@ -7,3 +7,9 @@ public class Autenticador {
 public void register(Usuarios user) {
         this.users.add(user);
     }
+public boolean login(String user, String passwd) {
+        for (Usuarios user : this.users) {
+            if (user.getUser().equals(user) && user.getPasswd().equals(passwd)) {
+                return false;
+            }
+        }
