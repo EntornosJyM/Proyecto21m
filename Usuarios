@@ -1,1 +1,4 @@
-
+public class Usuarios {
+	 private String user;
+	 private String passwd;
+	 private String email;
